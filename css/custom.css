@@ -1,0 +1,9 @@
+.bg-banner {
+    background-image: url(../images/bg2.jpg);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+}
+
+.color-grad {
+    background-color: linear-gradient(to right, rgb(168, 58, 58), rgb(228, 102, 102));
+}
