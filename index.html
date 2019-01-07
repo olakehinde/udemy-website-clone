@@ -8,6 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <!-- custom stylesheet -->
+     <link rel="stylesheet" href="css/custom.css">
+
     <title>Hello, world!</title>
   </head>
 
@@ -24,7 +30,8 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Categories
+                        <i class="fa fa-list-ul"></i>
+                        Categories
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
@@ -34,22 +41,77 @@
                     </div>
                 </li>
 
-                <div class="nav-item col-8">
+                <li class="nav-item col-8">
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control form-control-lg col-10 mr-sm-2" type="search" placeholder="Search for Categories" aria-label="Search">
-                        <button class="btn btn-outline-success col-1 my-2 my-sm-0" type="submit">Search</button>
+                        <input class="form-control form-control-lg col-9" type="search" placeholder="Search for Courses" aria-label="Search">
+                        <span class="btn btn-lg btn-danger btn-outline-danger col-1 my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></span>
                     </form>
-                </div>
-              
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
                 </li>
             </ul>
+
+            <a class="btn btn-light mx-2" href="#">Udemy for Business</a>
+            <a class="btn btn-light mx-2" href="#">Become an Instructor</a>
+            <a class="btn btn-light mx-2" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="btn btn-outline-dark mx-2" href="#">Login</a>
+            <a class="btn btn-danger mx-2" href="#">Sign Up</a>
             
 
            
         </div>
     </nav>
+
+    <div class="jumbotron bg-banner" style="height:500px; padding-top:150px">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col">
+                    <div class="col-4 text-light">
+                        <h1 class="display-5">Hot Sale - $9.99 courses</h1>
+                        <p class="lead">Get our best deal on courses!</p>
+                    </div>
+                    <div class="col-6">  
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control form-control-lg col-9" type="search" placeholder="what do you want to learn!" aria-label="Search">
+                            <span class="btn btn-lg btn-danger btn-outline-danger col-1 my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="color-grad" >
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="media">
+                        <i class="fa fa-play-circle mr-3"></i>
+                        <div class="media-body">
+                            <h5 class="mt-0">Fresh Content</h5>
+                            <p>Choose from 65,000 courses with new additions published every month!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <i class="fa fa-certificate mr-3"></i>
+                        <div class="media-body">
+                            <h5 class="mt-0">Trusted Instructors</h5>
+                            <p>Take courses taught by industry experts around the world!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <i class="fa fa-spinner mr-3"></i>
+                        <div class="media-body">
+                            <h5 class="mt-0">Flexible Learning</h5>
+                            <p>learn on your terms with lifetime course access and the Udemy mobile app</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
