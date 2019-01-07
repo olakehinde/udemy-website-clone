@@ -8,3 +8,9 @@
 .color-grad {
     background: linear-gradient(to left, #ec5252, #6e1a52);
 }
+
+.badge-style {
+    position: absolute;
+    z-index: 0;
+    margin-top: 10px;
+}
