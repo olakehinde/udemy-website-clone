@@ -14,3 +14,15 @@
     z-index: 0;
     margin-top: 10px;
 }
+
+.rounded-radius-right {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.rounded-radius-left {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.badge-radius {
+    border-radius: 0px 50% 50% 0px;
+}
